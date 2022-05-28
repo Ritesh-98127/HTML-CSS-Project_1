@@ -1,0 +1,25 @@
+@media screen and (max-width: 1000px)  {
+    nav{
+        flex-direction: column;
+    }
+    nav .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .search input{
+        margin: 0px 12px 8px 30px;
+        width: 55vw;
+    }
+    .slider{
+        margin: 6px 10px;
+        height: 30vh;
+        width: 40vh;
+        border-radius: 50px;
+    }
+    .card{
+        width: 50vw;
+    }
+}

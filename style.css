@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Titillium+Web:ital,wght@1,300&display=swap');
+:root{
+         --main-bg-color: #2455f4
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    width: 150px;
+    padding: 0 29px;
+    font-family: 'Cormorant Garamond', serif;
+}
+header{
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+header ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+header ul li a:hover{
+    
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 37px;
+    border-radius: 18px;
+    padding: 0px 10px;
+    margin: 0 15px 0 53px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    overflow: hidden;
+}
+.slider img{
+    border-radius: 76px;
+    margin-top:15px ;
+}
+.card{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px;
+    width: 10vw;
+    padding: 0 18px;
+    overflow: hidden;
+}
+.card img{
+    border-radius: 46px;
+}
+.cardss{
+    display: flex;
+    align-items: center;
+    margin: 47px auto;
+}
+.cards h2{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 25px 27px;
+}
+.container{
+    min-height: calc(100vh - 45px - 8vh);
+}
+footer{
+    background-color:var(--main-bg-color);
+    color: white;
+    height: 8vh;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}

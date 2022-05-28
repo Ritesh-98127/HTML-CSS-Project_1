@@ -1,0 +1,26 @@
+.flex_all_center{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 0px 12px;
+    width: 73px;
+    height: 27px;
+    border-radius: 11px;
+    color: white;
+    cursor: pointer;
+    background: var(--main-bg-color);
+    border: 3px solid rgb(255, 255, 255);
+    font-family: 'Teko', sans-serif;
+}
+.text_center{
+    text-align: center;
+    margin: 8px 0;
+}
+nav p a{
+    text-decoration: none;
+    color: rgb(248, 3, 3);
+    cursor: pointer;
+}
